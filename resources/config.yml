@@ -1,0 +1,18 @@
+save-bot-position: true
+
+bot:
+  name: "§l§cPvP Bot"
+  scale: 1.0
+  damage: 2.0              # урон игроку
+  follow-distance: 16
+  attack-distance: 2.5
+  speed: 1.0             # увеличено для агрессивного режима
+  knockback-bot: 0.3       # сила откидывания бота при ударе
+  knockback-player: 0.4    # сила откидывания игрока при атаке бота
+  skin: "bot_skin.png"
+
+permissions:
+  spawn: "pvpbot.command.spawn"
+  remove: "pvpbot.command.remove"
+  mode: "pvpbot.command.mode"
+  list: "pvpbot.command.list"

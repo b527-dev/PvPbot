@@ -1,0 +1,24 @@
+name: PvPBot
+version: 4.1.0
+api: [5.0.0]
+main: pvpbot\Main
+author: b527
+description: Реалистичный PvP-бот для тренировки
+
+permissions:
+  pvpbot.command:
+    default: true
+  pvpbot.command.spawn:
+    default: true
+  pvpbot.command.remove:
+    default: true
+  pvpbot.command.mode:
+    default: true
+  pvpbot.command.list:
+    default: op
+
+commands:
+  pvpbot:
+    description: Управление PvP ботом
+    usage: "/pvpbot <spawn|remove|mode|list>"
+    permission: pvpbot.command
